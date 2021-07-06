@@ -1,0 +1,61 @@
+header{
+    color: white;
+}
+
+.menu_icon_container{
+    padding: 1rem 2rem;
+}
+
+.menu_icon_container > div{
+    width: 3rem;
+    padding: .7rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    font-size: 1.4rem;
+}
+
+.header_text{
+    text-align: center;
+}
+
+.header_text img{
+    width: 10rem;
+}
+
+.header_text h2{
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: ATTAleckCd, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    margin-top: 1rem;
+    margin-left: 0;
+    text-shadow: 0 0 10px rgb(255 255 255 / 46%);
+    margin: 0;
+}
+
+@media only screen and (max-width: 800px) {
+    .header_text h2{
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header_text h2{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .header_text img{
+        width: 7rem;
+    }
+    .header_text h2{
+        font-size: 1.5rem;
+        letter-spacing: 0.2em;
+    }
+}

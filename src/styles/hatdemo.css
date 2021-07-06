@@ -1,0 +1,44 @@
+.demo_container{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.demo_container img{
+    width: 80%;
+}
+
+.hat{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 100%;
+    outline: 0;
+}
+
+.hat2{
+    visibility: hidden;
+    width: 100%;
+}
+
+.ar-button{
+    display: var(--ar-button-display, block) !important;
+}
+
+@media  only screen and (max-width: 800px) {
+    .demo_container{
+        width: 70%;
+    }
+
+    .demo_container img{
+        width: 100%;
+    }
+
+    .hat{
+        width: 100%;
+    }
+}

@@ -1,0 +1,38 @@
+.info_section{
+    width: 50%;
+    padding-right: 2rem;
+    box-sizing: border-box;
+}
+
+.info_section h2{
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-weight: 500;
+}
+
+.info_section h4{
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: ATTAleckCd, sans-serif;
+}
+
+.info_section p{
+    margin-top: 0;
+    color: #424242;
+    font-family: ATTAleckSans, sans-serif;
+}
+
+.info_section p:last-child{
+    opacity: 50%;
+    width: 90%;
+    margin: auto;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+@media  only screen and (max-width: 800px) {
+    .info_section{
+        width: 70%;
+        padding-right: 0;
+    }
+}

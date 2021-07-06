@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    background: url('/public/Background.png') no-repeat 100% 100%;
+    background-position: 0 0;
+    height: 100vh;
+    font-family: ATTAleckSans, sans-serif;
+}
+
+.text-align-center {
+    text-align: center;
+}
